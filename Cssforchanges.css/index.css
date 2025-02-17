@@ -21,4 +21,20 @@
     max-width: 100%; /* Ensures it stays within its container */
     text-align: justify; /* Makes the text look neat */
   }
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 100%; /* Use 100% instead of fixed width */
+  }
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+  html, body {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+  }
   
+    
