@@ -315,6 +315,28 @@
   <script src="assets/js/ajax-form.js"></script>
   <script src="assets/js/slick.min.js"></script>
   <script src="assets/js/script.js"></script>
+  <script>
+    function toggleMenu() {
+      let mobilemenu = document.getElementById("mobilemenu");
+      let mobilemain = document.getElementById("mobilemain");
+
+      if (mobilemenu && mobilemain) {
+        mobilemenu.classList.toggle("active");
+        mobilemain.classList.toggle("active");
+      } else {
+        console.error("One or more elements are missing!");
+      }
+    }
+
+    function Closemenu() {
+      document.getElementById("mobilemenu").classList.remove("active");
+      document.getElementById("mobilemain").classList.remove("active");
+    }
+
+
+
+
+  </script>
 
   <script>
     // Function to load external HTML into an element
