@@ -2,13 +2,24 @@
   
     width: 175px;
 }
+
+
+
 /* Mobile Devices (Portrait and Landscape) */
-@media (max-width: 767px) {
+@media (min-width:500px) and (max-width: 767px) {
     .logo_me8rics {
       width: 120px; /* Adjust logo size for small screens */
     }
   }
   
+  @media (max-width:500px){
+    .logo_me8rics {
+      width: 120px !important;
+      position: relative !important;
+      left: 34vw !important;
+  }
+    
+  }
   /* Tablet Devices */
   @media (min-width: 768px) and (max-width: 1024px) {
     .logo_me8rics {
