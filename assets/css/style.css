@@ -9,7 +9,7 @@
   --bs-font-secondary: "Bricolage Grotesque", sans-serif;
   --bs-font-tertiary: "Bebas Neue", sans-serif;
   --bs-font-quaternary: "Inter", sans-serif;
-  --bs-primary: #d6ffc8;
+  --bs-primary: #E75C16;
   --bs-text-color1: #10171d;
   --bs-text-color2: #18212a;
   --bs-text-color3: #171717;
@@ -201,10 +201,10 @@ p {
 .view-all-btn {
   width: 149px;
   height: 149px;
-  background: var(--bs-white);
+  background:#E75C16;
   border: 1px solid var(--bs-border-color2);
   border-radius: 50%;
-  color: var(--bs-text-color2);
+  color: white;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -228,19 +228,23 @@ p {
 
 .view-all-btn .icon img {
   -webkit-transition: var(--bs-transition);
-  transition: var(--bs-transition)
+  transition: var(--bs-transition);
+  
 }
 
 .view-all-btn:hover {
-  background-color: var(--bs-primary);
+  background-color: #F0EECF;
   border-color: var(--bs-primary);
   -webkit-transform: scale(1.1);
-  transform: scale(1.1)
+  transform: scale(1.1);
+  color: black;
+  
 }
 
 .view-all-btn:hover .icon img {
   -webkit-transform: rotate(36deg);
-  transform: rotate(36deg)
+  transform: rotate(36deg);
+ 
 }
 
 .view-all-btn-primary {
@@ -1748,7 +1752,7 @@ p {
   font-weight: 700;
   line-height: 118.86%;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--bs-border-color16)
+  -webkit-text-stroke-color: var(--bs-border-color18);
 }
 
 .feature-section-three .feature-item .feature-text .number .number-four {

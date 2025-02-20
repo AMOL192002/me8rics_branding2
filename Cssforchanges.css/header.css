@@ -33,3 +33,14 @@
       width: 175px; /* Keep logo at original size for large screens */
     }
   }
+  .hamburger-logo{
+    width: 60% !important;
+    height: auto;
+  }
+
+  .icon-arrow{
+    width: 40px;
+    height: auto;
+    position: relative;
+    /* right: 10px; */
+  }
