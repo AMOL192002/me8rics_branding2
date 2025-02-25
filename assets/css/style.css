@@ -6077,7 +6077,7 @@ p {
 }
 
 .lets-talk-section .view-all-btn-primary {
-  color: var(--bs-text-color11);
+  color: white;
   text-align: center;
   font-family: var(--bs-font-secondary);
   font-size: 18px;

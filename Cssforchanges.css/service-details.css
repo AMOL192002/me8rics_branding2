@@ -1,0 +1,79 @@
+/* Remove default Bootstrap accordion arrow */
+/* .accordion-button::after {
+    display: none !important;
+  } */
+
+  /* Style the custom plus icon */
+  .accordion-button span {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* Add spacing between accordion items */
+  .accordion-item {
+    margin-bottom: 5px;
+  }
+  /* .accordian-heading{
+    position: relative;
+    top: 16vh !important;
+  } */
+   @media (min-width:360px) and (max-width:990px){
+    .partner-alignement{
+        top: -20vh;
+        position: relative;
+      }
+  } 
+  .small-accordion {
+  top: -3vh ;
+  position: relative;
+  }
+  .partner-alignement{
+    margin-top: 11vh;
+  }
+  .lets-talk-section .view-all-btn-primary:hover{
+    color: black;
+  }
+  .faq-section.content {
+    position: relative;
+    top: -15vh;
+}
+.accordion-button {
+    color:black !important; 
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.accordion-body p {
+    color: var(--bs-paragraph); /* Change this color as needed */
+}
+
+/* Ensure Bootstrap's default icons are removed */
+.accordion-button::after {
+    content: ""; /* Remove default Bootstrap caret */
+    background-image: url(https://html.xstheme.com/digiso/assets/img/icons/plus.svg) !important; /* Default "+" icon */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px; /* Adjust as needed */
+    height: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Change to "-" icon and rotate when expanded */
+.accordion-button:not(.collapsed)::after {
+    background-image: url(https://html.xstheme.com/digiso/assets/img/icons/minus.svg) !important;
+    transform: rotate(180deg); /* Keep the rotation effect */
+}
+
+/* Remove hover effect */
+.accordion-button:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+/* Remove focus and active effect */
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+    background-color: transparent !important;
+    color: inherit !important;
+}
