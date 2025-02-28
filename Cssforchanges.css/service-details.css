@@ -314,6 +314,8 @@ body {
     margin-top: 10vh !important;
     position: relative;
     padding-top: 0 !important;
+    height: 20vh;
+
   }
 }
 @media (min-width:576px) and (max-width:767px){
@@ -321,6 +323,10 @@ body {
     width:34vw;
 
   }
+  .service-list-section {
+    margin-top: 60px;
+    height: 45vh !important;
+}
  
 }
 @media (min-width:1000px) and (max-width:1400px){
@@ -360,5 +366,17 @@ body {
     position: relative;
     /* padding-top: 20vh !important; */
 }
+.service-list-section {
+  margin-top: 60px;
+  height: 40vh !important;
+}
+
   
+}
+@media (min-width:360px) and (max-width:567px){
+  .service-list-section {
+    margin-top: 60px;
+    height: 60vh;
+}
+
 }
