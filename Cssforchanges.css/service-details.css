@@ -18,7 +18,7 @@
     position: relative;
     top: 16vh !important;
   } */
-   @media (min-width:360px) and (max-width:990px){
+   @media (min-width:360px) and (max-width:767px){
     .partner-alignement{
         top: -20vh;
         position: relative;
@@ -157,13 +157,15 @@ body {
 
 /* Make sure alignment is the same */
 .partner-alignement {
-  margin-top: 11vh;
+  margin-top: 20vh !important;
+  position: relative;
+  /* padding-top: 20vh !important; */
 }
 
 /* Responsive Fixes */
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .faq-section.content {
-    top: -10vh;
+    top: -6vh;
   }
   
   .accordion-item {
@@ -196,6 +198,8 @@ body {
     height: 12px;
     background-color: black;
     border-radius: 50%;
+    margin-bottom: 5vh !important;
+    position: relative;
   }
 
   /* Ensure paragraph stays below */
@@ -205,4 +209,156 @@ body {
   .work-with-us-section .text .sub-title{
     margin-top: 5vh !important;
   }
+  .dot-3{
+    margin-bottom: 7vh !important ;
+  }
+  
+}
+
+.icon-arrow {
+  width: 40px;
+  height: auto;
+  position: relative;
+  /* right: 10px; */
+
+}
+@media (min-width:1000px) and (max-width:2000px){
+
+  .service-details-banner-section{
+    margin-top: -10vh;
+  }
+  
+
+}
+
+@media (min-width:1000px) and (max-width:2000px){
+ .container-above-image{
+
+  height: 20vh !important;
+}
+.text-p{
+  top:5vh;
+  position: relative;
+}
+
+}
+.accordion-item {
+  margin-bottom: 25px; /* Adjust this value for desired spacing */
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust spacing between dot and title */
+}
+
+.dots {
+  width: 10px;  /* Adjust size as needed */
+  height: 10px;
+  background-color: black; /* Adjust color */
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 4vh;
+}
+.dot-3{
+  margin-bottom: 10vh ;
+}
+@media (max-width: 767.98px) {
+  .section-title-block h3.section-title {
+      font-size: 25px !important;
+  }
+  .lets-talk-section {
+    background-color: var(--bs-bg-color3);
+    height: 153px;
+    margin-top: 0 !important;
+}
+}
+@media (min-width:576px) and (max-width: 991px) {
+  .small-accordion{
+    margin-top: 4vh !important;
+  }
+}
+
+.title-c{
+  max-width: 350px !important;
+  width: 100%;
+}
+.dot-2{
+  margin-top: 3vh;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .accordion-item {
+    max-width: 100% !important; /* Prevent overflow */
+  }
+  .accordion-button {
+    font-size: 16px; /* Reduce font size if it's too large */
+    padding: 10px 12px; /* Adjust padding for better spacing */
+  }
+  .accordion-body {
+    font-size: 14px; /* Ensure text isn't making items too large */
+  }
+  .faq-section.content {
+    top: -5vh !important; /* Reduce large negative margin */
+  }
+  .small-accordion {
+    top: 0 !important; /* Avoid unnecessary shifting */
+  }
+}
+@media (max-width: 767px) {
+  .contact-info {
+    width: 100% !important; /* Ensure full width */
+    max-width: 100%; /* Prevent stretching */
+  }
+  .partner-alignement {
+    margin-top: 10vh !important;
+    position: relative;
+    padding-top: 0 !important;
+  }
+}
+@media (min-width:576px) and (max-width:767px){
+  .accordion-1{
+    width:34vw;
+
+  }
+ 
+}
+@media (min-width:1000px) and (max-width:1400px){
+  .partner-alignement{
+    /* top:60vh !important; */
+    position: relative;
+    margin-top: 5% !important ;
+    /* padding-top: 20vh !important; */
+    /* font-size: 20px !important; */
+  }
+  .section-title{
+    font-size: 36px !important;
+ }
+ 
+}
+
+@media (min-width:1400px) and (max-width:1800px){
+
+.brand-details{
+  padding-bottom: 10vh;
+
+}
+.partner-alignement{
+  /* top:60vh !important; */
+  position: relative;
+  padding-top: 20% !important;
+  margin-top: 0vh !important;
+  /* font-size: 20px !important; */
+}
+.section-title{
+   font-size: 36px !important;
+}
+}
+@media (min-width:768px) and (max-width:999px){
+  .partner-alignement {
+    margin-top: 0vh !important;
+    position: relative;
+    /* padding-top: 20vh !important; */
+}
+  
 }
