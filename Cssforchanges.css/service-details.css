@@ -318,7 +318,7 @@ body {
 } */
 @media (max-width: 767.98px) {
   .section-title-block h3.section-title {
-      font-size: 25px !important;
+      font-size: 20px !important;
   }
   .lets-talk-section {
     background-color: var(--bs-bg-color3);
@@ -517,4 +517,15 @@ margin-top: -4rem ;
   position: relative;
   margin-top: -10vh !important;
 }
+}
+.partner{
+  color: black !important;
+  font-size: 35px !important;
+  /* font-family: var(--bs-body-font-primary) !important; */
+  
+}
+.partner-sub{
+  color: var(--bs-paragraph) !important; 
+  font-size: 25px !important;
+  font-family: var(--bs-body-font-primary) !important;
 }
